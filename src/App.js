@@ -1,12 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from "./components/Button";
+import Contador from "./components/Contador";
 
 function App() {
+    const handleCliqueAqui = () => {
+        console.log("Botão 'clique aqui' clicado ")
+    }
+
+    const handleOutroTexto = () => {
+        console.log("meu pobrema é outro douto")
+    }
+
   return (
     <div>
         <h1 className="title">LAL de lal</h1>
-        <img src="https://i.ytimg.com/vi/e_fr3q4Fh20/maxresdefault.jpg" alt="lal de lal" />
-
+        <Button texto="LAl de lal" onClickButton={handleCliqueAqui} />
+        <Button texto="uiuiui" onClickButton={handleOutroTexto} />
+        <Contador/>
 
     </div>
   );

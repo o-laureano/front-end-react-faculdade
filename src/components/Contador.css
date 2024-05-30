@@ -1,0 +1,11 @@
+.contadorContainer {
+    background-color: #ebfde0;
+    margin: 16px;
+    color: #313131;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+}

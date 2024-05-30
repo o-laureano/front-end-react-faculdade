@@ -1,0 +1,10 @@
+.buttonContainer {
+    background-color: #4edf54;
+    padding: 4px;
+    font-size: 20px;
+    border-width: 0;
+    border-radius: 8px;
+    &:hover {
+        background-color: #2f9634;
+    }
+}
